@@ -117,3 +117,7 @@ function reiniciarJuego() {
 
 const jugar = document.getElementById("jugar");
 jugar.addEventListener("click", reiniciarJuego);
+
+window.onload = function () {
+  mezclarCartas();
+};
