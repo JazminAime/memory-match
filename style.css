@@ -106,13 +106,27 @@ footer p {
   font-weight: 500;
 }
 
+img {
+  height: 80px;
+}
+
+#jugar {
+  margin-top: 20px;
+  font-size: 20px;
+  width: 150px;
+  background-color: #a36ab5;
+  color: white;
+  height: 50px;
+}
+
 @media (max-width: 600px) {
   header {
-    margin-top: 100px;
+    margin-top: 40px;
   }
 
   h1 {
     margin: 0;
+    margin-bottom: 20px;
   }
 
   .game {
@@ -144,6 +158,10 @@ footer p {
   h3 {
     font-size: 18px;
   }
+
+  img {
+    height: 30px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1020px) {
@@ -171,5 +189,9 @@ footer p {
 
   .section-results {
     padding: 10px;
+  }
+
+  img {
+    height: 50px;
   }
 }
